@@ -87,6 +87,7 @@ function checkScore() {
   }
 }
 
+//Restarts the game
 function restart(){
   onEvent("restartButton1", "click", function( ) {
     reset();
