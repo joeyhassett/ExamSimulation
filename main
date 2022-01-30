@@ -17,6 +17,7 @@ function game(){
   paper();
 }
 
+//This function codes for the first half of the game with the pencils
 function pencils(){
     onEvent("pencil", "click", function( ) {
     setPosition("pencil", randomNumber(50,280), randomNumber(50,300));
