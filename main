@@ -10,6 +10,7 @@ var total = 0;
 
 game();
 
+//Calls the functions of the game in order
 function game(){
   restart();
   pencils();
