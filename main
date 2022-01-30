@@ -63,6 +63,7 @@ function checkpoint(){
   });
 }
 
+//Checks if the score reaches a certain value neeeded to progress through the game
 function checkScore() {
   if (score1 == 10) {
     setScreen("checkpointScreen"); 
