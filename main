@@ -58,6 +58,7 @@ function paper(){
   });
 }
 
+//Checkpoint between the pencil and paper screens
 function checkpoint(){
   onEvent("nextButton", "click", function( ) {
     setScreen("paperScreen");
