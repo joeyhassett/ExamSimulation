@@ -87,7 +87,7 @@ function checkScore() {
   }
 }
 
-//Restarts the game
+//Restarts the game and brings the user back to the first screen
 function restart(){
   onEvent("restartButton1", "click", function( ) {
     reset();
