@@ -107,7 +107,7 @@ function restart(){
   });
 }
  
-//Resets all the values of the variables when the game restarts
+//Resets all the values of the variables
 function reset() {
   score1 = 0;
   score2 = 0;
